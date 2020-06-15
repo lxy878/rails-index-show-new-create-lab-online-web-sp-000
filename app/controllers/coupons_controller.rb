@@ -5,6 +5,7 @@ class CouponsController < ApplicationController
   end
 
   def shown
+    puts @coupon
   end
 
   def new
