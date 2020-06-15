@@ -4,7 +4,7 @@ class CouponsController < ApplicationController
     @coupons = Coupon.all
   end
 
-  def shown
+  def show
     puts @coupon
   end
 
